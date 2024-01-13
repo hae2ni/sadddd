@@ -35,7 +35,6 @@ export default function PdfViewer(props: PdfViewerProps) {
 }
 
 const PdfViewerWrapper = styled.div`
-  ${({ theme }) => theme.effects.pdf_shadow};
 
   width: 100%;
   height: calc(100vh - 16.4rem);
